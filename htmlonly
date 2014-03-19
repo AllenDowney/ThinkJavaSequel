@@ -1,0 +1,20 @@
+% put commands here that should be used for the HTML
+% version of the book but not Postscript or PDF
+
+\newcommand{\adjustpage}[1]{}
+
+\newcommand{\clearemptydoublepage}{}
+\newcommand{\blankpage}{}
+
+\newcommand{\spacing}{}
+\newcommand{\endspacing}{}
+
+\newcommand{\frontmatter}{}
+\newcommand{\mainmatter}{}
+
+%\newcommand{\theoremstyle}[1]{}
+%\newcommand{\newtheoremstyle}[1]{}
+
+\htmlhead{\rawhtmlinput{header.html}}
+
+\htmlfoot{\rawhtmlinput{footer.html}}
